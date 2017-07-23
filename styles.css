@@ -22,7 +22,7 @@ margin:0;
 }
 .wrapper{
   background-color: #F2F1E8;
-  width: auto;
+  width: 1280px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -86,20 +86,152 @@ height:2.5em;
   padding: 0;
   display: flex;
   justify-content: space-between;
-
-}
-.displayimages {
-  display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  flex-basis: 100%;
-
-
 
 }
-.image2 {
+.row1{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   flex-basis: auto;
-  flex-shrink: 100;
-
+  color: #2B2F26
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 75%
+}
+#image1{
+  background-image: url(images/optimized/product-1.jpg);
+  object-fit: fill;
+  /*flex-shrink: 75%*/
+  height:150px;
+  width:600px;
+  padding: 5em;
+  margin-right: .75em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+#image2{
+  background-image: url(images/optimized/product-2.jpg);
+  height:150px;
+  width:125px;
+  padding: 5em;
+  margin-right: .75em;
+  margin-bottom: 1em;
+}
+#image3{
+  background-image: url(images/optimized/product-3.jpg);
+  height: 150px;
+  width: 125px;
+  padding: 5em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+#image4{
+  background-image: url(images/optimized/product-4.jpg);
+  height: 100px;
+  width: 125px;
+  padding: 5em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+#image5{
+  background-image: url(images/optimized/product-5.jpg);
+  height: 100px;
+  width: 125px;
+  padding: 5em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+#image6{
+  background-image: url(images/optimized/product-6.jpg);
+  height: 100px;
+  width: 325px;
+  padding: 5em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+#image7 {
+  background-image: url(images/optimized/product-7.jpg);
+  height: 100px;
+  width: 125px;
+  padding: 5em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
+footer{
+  padding:10px;
+}
+.Newsletter-body{
+  display: flex;
+  background-image: url(/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/background-2.jpg);
+background-size: 100%;
+flex-direction: column;
+/*padding:*/
+}
+.Newsletter-box{
+  /*background-color: white;*/
+}
+.Newsletter{
+  text-align: center;
+}
+.Newsletter-form{
+text-align: center;
+}
+.Newsletter-submit{
+text-align: center;
+}
+.About-body{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  /*padding-left:10em;
+  padding-right: 10em;*/
+}
+.About-Opening{
+  padding-left:10em;
+  padding-right: 10em;
+}
+#birdhouse{
+  width: 75px;
+  float: left;
+}
+.About-quote{
+  padding-left:10em;
+  padding-right: 10em;
+}
+.About-history{
+  padding-left:10em;
+  padding-right: 10em;
+}
+.About-facilities{
+  padding-left:10em;
+  padding-right: 10em;
+}
+.About-monthly-plans{
+  padding-left:10em;
+  padding-right: 10em;
+}
+.About-middle{
+  text-align: center;
+}
+table {
+  border: 1px solid #131511;
+  border-spacing: 0;
+  width:50%;
+  align-content: center;
+}
+td {
+  border: 1px;
+  border-style: solid;
+  border-color: #131511;
+  padding:5px;
+}
+.tr2{
+  background-color: #968772;
+}
+.tr4{
+  background-color: #968772;
 }
