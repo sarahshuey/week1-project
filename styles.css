@@ -30,15 +30,8 @@ margin:0;
   background-color: #FFFFFF;
   padding-left: 20px;
   display:flex;
-  /*flex-direction: row;*/
   height: 60px;
-  /*align-items: center;*/
-
 }
-/*#logo {
-  display: flex;
-  justify-content: flex-start;
-}*/
 #logo img{
 height:2.5em;
 }
@@ -64,15 +57,9 @@ height:2.5em;
   text-transform: uppercase;
   color: #968772;
   padding-left: 40px;
-/*justify-content: center;*/
 }
-/*.nav-link{
-  display: flex;
-  justify-content: center;
 
-}*/
 #site-name{
-  /*padding:5px;*/
   text-align: center;
   font-size: 2em;
   font-weight: lighter;
@@ -85,7 +72,10 @@ height:2.5em;
   padding: 0;
   display: flex;
   flex-direction: row;
-  flex-basis: 100%
+  justify-content: center;
+}
+.home-page{
+  width: 100%
 }
 .row1{
   display: flex;
@@ -103,97 +93,159 @@ background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
   flex-basis: 60%;
-  height: 200px;
-  font-size: 10px;
+  height: 300px;
   margin-left: 2em;
+  margin-right: 1em;
+}
+#image1 p{
+  background-color: #2B2F26;
+  color: #968772;
+  text-align: center;
+  width: 200px;
+  padding: 8px;
+  position: relative;
+  top: 230px;
 }
 #image2{
   background-image: url(images/optimized/product-2.jpg);
-flex-basis: 15%;
-height: 200px;
+flex-basis: 18%;
+height: 300px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
+margin-right: 1em;
+}
+#image2 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width: 70px;
+padding: 8px;
+position: relative;
+top: 230px;
 }
 #image3{
   background-image: url(images/optimized/product-3.jpg);
-flex-basis: 15%;
-height: 200px;
+flex-basis: 18%;
+height: 300px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
   margin-bottom: .75em;
+  margin-right: 2em;
+}
+#image3 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width:100px;
+padding: 8px;
+position: relative;
+top: 230px;
 }
 #image4{
   background-image: url(images/optimized/product-4.jpg);
-flex-basis: 20%;
-height: 150px;
+flex-basis: 18%;
+height: 250px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
   margin-left: 2em;
   margin-bottom: 1em;
   margin-right: 1em;
 }
+#image4 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width: 100px;
+padding: 8px;
+position: relative;
+top: 175px;
+}
 #image5{
   background-image: url(images/optimized/product-5.jpg);
-flex-basis: 20%;
-height: 150px;
+flex-basis: 18%;
+height: 250px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
 margin-bottom: 1em;
 margin-right: 1em;
+}
+#image5 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width: 200px;
+padding: 8px;
+position: relative;
+top: 175px;
 }
 #image6{
   background-image: url(images/optimized/product-6.jpg);
-flex-basis: 45%;
-height: 150px;
+flex-basis: 40%;
+height: 250px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
 margin-bottom: 1em;
 margin-right: 1em;
 }
+#image6 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width:150px;
+padding: 8px;
+position: relative;
+top: 175px;
+}
 #image7 {
   background-image: url(images/optimized/product-7.jpg);
-flex-basis: 15%
-height: 150px;
+flex-basis: 18%;
+height: 250px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-font-size: 10px;
 margin-bottom: 1em;
+margin-right: 2em;
 }
+#image7 p{
+  background-color: #2B2F26;
+  color: #968772;
+text-align: center;
+width: 170px;
+padding: 8px;
+position: relative;
+top: 175px;
+}
+
 footer{
   padding:10px;
   background-color: rgb(48,50,43);
   color: #fff;
 }
-.Newsletter-body{
-  display: flex;
-  background-image: url(/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/background-2.jpg);
-background-size: 100%;
-flex-direction: column;
-/*padding:*/
-}
 .Newsletter-box{
-  /*background-color: white;*/
+  height: 650px;
 }
-.Newsletter{
+.Newsletter-all{
+  background-color: white;
   text-align: center;
-}
-.Newsletter-form{
-text-align: center;
-}
-.Newsletter-submit{
-text-align: center;
-}
+  height: 400px;
+  width: 700px;
+position: relative;
+top:-600px;
+left:300px;}
+
+  .newsletter-image{
+    height: 650px;
+    width: 100%;
+  }
+  .Newsletter-form{
+
+  }
+
 .About-body{
   display: flex;
   flex-direction: column;
