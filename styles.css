@@ -233,7 +233,7 @@ footer{
   background-color: white;
   text-align: center;
   height: 400px;
-  width: 700px;
+  width: 670px;
 position: relative;
 top:-600px;
 left:300px;}
@@ -242,9 +242,29 @@ left:300px;}
     height: 650px;
     width: 100%;
   }
-  .Newsletter-form{
-
+  #p1{
+    font-size: 30px;
+    padding-top: 30px;
   }
+  form{
+    width: 100%;
+  }
+.Newsletter-form input{
+  color: #968772;
+  font-size: 18px;
+  margin-bottom: 1em;
+  border: none;
+  border-bottom: 2px solid #968772;
+  margin-top: 2em;
+  width: 500px;
+}
+.Newsletter-submit input{
+  background-color: #968772;
+  color: white;
+  margin: 20px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
 
 .About-body{
   display: flex;
