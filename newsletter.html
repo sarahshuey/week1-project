@@ -33,13 +33,13 @@
   </div>
 <div class="Newsletter-form">
   <form>
-  <input type="text" name="Name" value="Name" placeholder="Name" required>
+  <input type="text" name="Name"  placeholder="Name" id="nameInput" required>
   <br>
-  <input type="email" name="Email" value="Email" placeholder="Email" required>
+  <input type="email" name="Email"  placeholder="Email" id="emailInput" required>
   </form>
 </div>
 <div class="Newsletter-submit">
-  <input type="submit" name="Submit" value="Sumbit">
+  <input type="submit" name="Submit" value="Sumbit" id="signupButton">
 </div>
 </div>
 </div>
@@ -48,6 +48,20 @@
   <p>Copyright 2017, Bent Creek Ceramics</p>
 </footer>
   </body>
+  <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
 </html>
-<!--
-Copyright 2017, Bent Creek Ceramics -->

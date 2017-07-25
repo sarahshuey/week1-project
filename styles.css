@@ -16,7 +16,8 @@ margin:0;
   position: fixed;
   top:0;
   left:0;
-  width: 100%
+  width: 100%;
+  box-shadow: 0 0 20px 0 #968772;
 }
 #logo img{
 height:2.5em;
@@ -26,26 +27,25 @@ height:2.5em;
   justify-content: flex-start;
   align-items: center;
 }
-
 .Nav-bar {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: center;
   margin-right: 80px;
-
 }
-
 #main-nav{
   display: flex;
 }
-
 #main-nav a{
   text-transform: uppercase;
   color: #968772;
-  padding-left: 40px;
+  padding: 20px;
 }
-
+#main-nav a:hover{
+  color:#fff;
+  background-color: #968772;
+}
 #site-name{
   margin-top: 100px;
   text-align: center;
@@ -341,7 +341,7 @@ left:300px;}
 .About-monthly-plans h3{
   font-weight: lighter;
 }
-.About-middle{
+#parallax{
   display: flex;
   background-image: url(images/optimized/background-3.jpg);
   height: 250px;
@@ -351,6 +351,10 @@ left:300px;}
   align-items: center;
   color: white;
   font-size: 50px;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 table {

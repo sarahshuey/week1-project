@@ -35,33 +35,26 @@
         <div class="home-page">
           <div class="row1">
             <div class="product-images" id="image1">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-1.jpg" alt="product1"> -->
               <p>Endless Possibilities</p>
             </div>
             <div class="product-images" id="image2">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-2.jpg" alt="product2"> -->
               <p>Sets</p>
             </div>
             <div class="product-images" id="image3">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-3.jpg" alt="product3"> -->
               <p>Textures</p>
             </div>
           </div>
           <div class="row2">
             <div class="prodcut-images" id="image4">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-4.jpg" alt="product4"> -->
               <p>Tea Time</p>
             </div>
             <div class="product-images" id="image5">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-5.jpg" alt="product5"> -->
               <p>Jars and Containers</p>
             </div>
             <div class="product-images" id="image6">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-6.jpg" alt="product6"> -->
               <p>Wasabi and Saki</p>
             </div>
             <div class="product-images" id="image7">
-              <!-- <img src="/Users/sarahshuey/Desktop/Development/Week1/week-one-project/images/optimized/product-7.jpg" alt="product7"> -->
               <p>Sippin' on Sunshine</p>
             </div>
           </div>
@@ -73,6 +66,22 @@
       <p>Copyright 2017, Bent Creek Ceramics</p>
     </footer>
   </div>
+  <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
 </body>
 
 </html>
