@@ -3,7 +3,7 @@ body{
 margin:0;
 }
 .wrapper{
-  background-color:#F2F1E8 ;
+  background-color:#F2F1E8;
   width: 1280px;
   margin: 0 auto;
   overflow: hidden;
@@ -15,8 +15,10 @@ margin:0;
   height: 60px;
   position: fixed;
   top:0;
-  left:0;
-  width: 100%;
+  left:100;
+  right:200;
+  width: 1260px;
+  /*justify-content: center;*/
   box-shadow: 0 0 20px 0 #968772;
 }
 #logo img{
@@ -30,12 +32,13 @@ height:2.5em;
 .Nav-bar {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 1270%;
   justify-content: center;
   margin-right: 80px;
 }
 #main-nav{
   display: flex;
+  justify-content: center;
 }
 #main-nav a{
   text-transform: uppercase;
