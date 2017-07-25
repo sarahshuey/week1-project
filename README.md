@@ -11,7 +11,7 @@
 - After I began styling all three pages and would switch back and
 forth when I cam across an issue I could not figure out
 
-#CSS I used
+# CSS I used
 - parallax
 - display flex
 - float
