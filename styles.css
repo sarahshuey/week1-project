@@ -42,12 +42,15 @@ height:2.5em;
 }
 #main-nav a{
   text-transform: uppercase;
-  color: #968772;
+  color: ##2B2F26;
   padding: 20px;
 }
 #main-nav a:hover{
   color:#fff;
-  background-color: #968772;
+  background-color: #967343;
+}
+a.current{
+  color: #968772;
 }
 #site-name{
   margin-top: 100px;
@@ -348,8 +351,6 @@ left:300px;}
   display: flex;
   background-image: url(images/optimized/background-3.jpg);
   height: 250px;
-  background-position: center;
-  background-size: cover;
   justify-content: center;
   align-items: center;
   color: white;

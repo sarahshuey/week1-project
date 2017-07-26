@@ -1,7 +1,8 @@
-# Week One Project
+## Week One Project
 - HTML
 - CSS
-# Steps
+
+## Steps
 - Began by writing the HTML for the "home page"
 - I then styled it with css and did roughly 75% of the styling
 - Next I wrote the HTML for the "newsletter page"
@@ -11,7 +12,7 @@
 - After I began styling all three pages and would switch back and
 forth when I cam across an issue I could not figure out
 
-# CSS I used
+## CSS Used
 - parallax
 - display flex
 - float
@@ -25,11 +26,23 @@ forth when I cam across an issue I could not figure out
 - padding
 - justify-content
 
-
+### Home Page Wireframe
 ![Alt text](images/wireframe1.JPG "Wire Frame Home Page")
+
+### About Page Wireframe
 ![Alt text](images/wireframe2.JPG "Wire Frame About Page")
+
+### Newsletter Page Wireframe
 ![Alt text](images/wireframe3.JPG "Wire Frame Newsletter Page")
+
+### Finished Home Page
 ![Alt text](images/wireframe4.png "Finished Screenshot Home")
+
+### Finished About Page
 ![Alt text](images/wireframe5.png "Finished Screenshot About1")
+
+### Finished About Page
 ![Alt text](images/wireframe6.png "Finished Screenshot About2")
+
+### Finished Newsletter Page
 ![Alt text](images/wireframe7.png "Finished Screenshot Newsletter")
